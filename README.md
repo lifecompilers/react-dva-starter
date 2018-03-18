@@ -1,6 +1,8 @@
 # react-dva-starter
 React with Dva-Cli and Ant Design:)
 
+[![Travis](https://img.shields.io/travis/lifecompilers/react-dva-starter.svg?style=for-the-badge)](https://travis-ci.org/lifecompilers/react-dva-starter/)
+
 # Getting Started
 
   git clone https://github.com/lifecompilers/react-dva-starter.git
