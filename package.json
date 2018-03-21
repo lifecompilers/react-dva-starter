@@ -11,7 +11,9 @@
     "start": "roadhog server",
     "build": "roadhog build",
     "lint": "eslint --ext .js src test",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "antd": "^3.3.0",
@@ -28,6 +30,7 @@
     "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
+    "gh-pages": "^1.1.0",
     "husky": "^0.14.3",
     "redbox-react": "^1.4.3",
     "roadhog": "^2.0.0"
