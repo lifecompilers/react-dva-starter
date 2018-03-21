@@ -7,6 +7,7 @@
     "url": "https://github.com/lifecompilers/react-dva-starter.git"
   },
   "private": false,
+  "homepage": "https://lifecompilers.github.io/react-dva-starter",
   "scripts": {
     "start": "roadhog server",
     "build": "roadhog build",
