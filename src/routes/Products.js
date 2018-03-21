@@ -24,7 +24,7 @@ const Products = ({ dispatch, products }) => {
         </Row>
         <Row>
             <Col span={24} align="center">
-                <Button type="primary" href="/#/">
+                <Button type="primary" href={(process.env.PUBLIC_URL?process.env.PUBLIC_URL:'') + '/#/'}>
                     <Icon type="left" />Go back
                 </Button>
             </Col>
