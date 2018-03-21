@@ -14,7 +14,7 @@
     "lint": "eslint --ext .js src test",
     "precommit": "npm run lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "antd": "^3.3.0",
